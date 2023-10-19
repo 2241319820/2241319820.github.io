@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>华南师范大学学生问答</title>
+</head>
+<body>
+    <h1>欢迎来到华南师范大学学生问答</h1>
+    
+    <h2>发表问题</h2>
+    <form action="post_question.py" method="post">
+        <label for="question_title">问题标题:</label>
+        <input type="text" name="question_title" id="question_title"><br>
+        
+        <label for="question_content">问题内容:</label>
+        <textarea name="question_content" id="question_content" rows="4" cols="50"></textarea><br>
+        
+        <input type="submit" value="发布问题">
+    </form>
+    
+    <h2>最新问题</h2>
+    <ul>
+        <li>如何准备期末考试？</li>
+        <li>校内社交活动有哪些？</li>
+    </ul>
+</body>
+</html>
